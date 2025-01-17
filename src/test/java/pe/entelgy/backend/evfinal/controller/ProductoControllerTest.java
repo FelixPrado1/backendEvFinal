@@ -132,7 +132,7 @@ class ProductoControllerTest {
 
     @Test
     @WithMockUser(username = "admin", roles = "ADMIN")
-    public void testCreateProductoDescripcionVacia() throws Exception {
+    public void testCreateProductoDescripcionEmpty() throws Exception {
         mockMvc.perform(post("/api/producto")
                         .contentType("application/json")
                         .content("{ \"nombre\": \"Laptop\", \"categoria\": \"LAPTOPS\", \"precio\": 1000.00, \"descripcion\": \"\", \"stock\": 10 }"))
@@ -141,7 +141,7 @@ class ProductoControllerTest {
 
     @Test
     @WithMockUser(username = "admin", roles = "ADMIN")
-    public void testCreateProductoDescripcionExcedida() throws Exception {
+    public void testCreateProductoDescripcionExceded() throws Exception {
         mockMvc.perform(post("/api/producto")
                         .contentType("application/json")
                         .content("{ \"nombre\": \"Laptop\", \"categoria\": \"LAPTOPS\", \"precio\": 1000.00, \"descripcion\": \"" + "A".repeat(505) + "\", \"stock\": 10 }"))

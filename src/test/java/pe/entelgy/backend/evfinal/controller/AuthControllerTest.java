@@ -87,7 +87,7 @@ public class AuthControllerTest {
 
 
     @Test
-    public void testRegisterClienteDniInvalido() throws Exception {
+    public void testRegisterClienteDniInvalid() throws Exception {
         ClientRegistrationDTO invalidClient = new ClientRegistrationDTO();
         invalidClient.setNombres("Juan");
         invalidClient.setApellidoPaterno("Pérez");

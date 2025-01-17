@@ -46,6 +46,11 @@ Estos endpoints permiten el registro de nuevos usuarios y la generación de toke
 
 La aplicación utiliza Spring Security para garantizar que solo los usuarios autorizados tengan acceso a recursos específicos. Se implementan roles de usuario (Cliente y Admin) para gestionar el acceso a diferentes operaciones, además de emplear DTOs para mostrar o solicitar en el request solo lo necesario.
 
+## 🧪 Pruebas con Postman
+
+Para facilitar las pruebas de la API, se incluye una colección de Postman lista para importar en:
+```src/main/resources/static/Backend Final - Pasantia Entelgy.postman_collection.json```
+
 ## 📝 Gracias
 
 Gracias a lo aprendido en la pasantía, mi proyecto no solo se limita a las funcionalidades básicas de gestión de pedidos, sino que también implementa una arquitectura sólida y prácticas de seguridad avanzadas para proporcionar una solución confiable y escalable.

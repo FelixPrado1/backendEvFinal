@@ -24,12 +24,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/auth/register/cliente",
+							"raw": "http://localhost:8284/auth/register/cliente",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8080",
+							"port": "8284",
 							"path": [
 								"auth",
 								"register",
@@ -54,12 +54,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/auth/login",
+							"raw": "http://localhost:8284/auth/login",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8080",
+							"port": "8284",
 							"path": [
 								"auth",
 								"login"
@@ -93,12 +93,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/auth/register/admin",
+							"raw": "http://localhost:8284/auth/register/admin",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8080",
+							"port": "8284",
 							"path": [
 								"auth",
 								"register",
@@ -133,12 +133,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/auth/register/admin",
+							"raw": "http://localhost:8284/auth/register/admin",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8080",
+							"port": "8284",
 							"path": [
 								"auth",
 								"register",
@@ -163,12 +163,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/auth/login",
+							"raw": "http://localhost:8284/auth/login",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8080",
+							"port": "8284",
 							"path": [
 								"auth",
 								"login"
@@ -218,12 +218,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/pedido/1",
+							"raw": "http://localhost:8284/api/pedido/1",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8080",
+							"port": "8284",
 							"path": [
 								"api",
 								"pedido",
@@ -258,12 +258,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/producto",
+							"raw": "http://localhost:8284/api/producto",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8080",
+							"port": "8284",
 							"path": [
 								"api",
 								"producto"
@@ -287,12 +287,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/producto",
+							"raw": "http://localhost:8284/api/producto",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8080",
+							"port": "8284",
 							"path": [
 								"api",
 								"producto"
@@ -342,12 +342,12 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/api/pedido",
+							"raw": "http://localhost:8284/api/pedido",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "8080",
+							"port": "8284",
 							"path": [
 								"api",
 								"pedido"
